@@ -416,7 +416,7 @@ int main (int argc, char *argv[]){
 				exit (1);
 			}
 		} else {
-			printf("Usage: ./simted3 [-c] foo.txt\n");
+			printf("Usage: ./atto [-c] foo.txt\n");
 			exit (1);
 		}
 	} else if(argc == 2){
@@ -437,7 +437,7 @@ int main (int argc, char *argv[]){
 			fclose(handler);
 		}
 	} else {
-		printf("Usage: ./simted3 [-c] foo.txt\n");
+		printf("Usage: ./atto [-c] foo.txt\n");
 		exit (1);
 	}
 	while(1){
